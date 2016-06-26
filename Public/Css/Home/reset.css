@@ -1,0 +1,19 @@
+﻿/*CSS reset*/
+Body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,
+td {margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+/*第一个属性是将表格的双边边框合为一，然后两条边框的距离为0；*/
+fieldset,img{border:0}
+/*fieldset的作用是将表单分组，可以有标题*/
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+/*cite是用于表示它所包含的文本对某个参考文献的引用，比如书籍或者杂志的标题*/
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+/*他们会默认的居于中间,得设为靠右*/
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+a{text-decoration:none;}
+q:before,q:after{contect:’’}
+abbr,acronym{border:0}
+@charset "utf-8";
+/* CSS Document */
+

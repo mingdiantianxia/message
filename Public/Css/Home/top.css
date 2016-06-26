@@ -1,0 +1,25 @@
+/* 回到顶部 */
+ #returnTop {
+	_display:none;
+	position:fixed;
+	_position:absolute;
+	z-index:999;
+	right:0px;
+	bottom:-200px;
+	_bottom:auto;
+	width:62px;
+	height:188px;
+	text-indent:-999px;
+	overflow:hidden;
+	background-image:url(../../Images/Top.png);
+	_background-image:url(../../Images/Top.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	transition:bottom 0.9s;
+	-webkit-transition:bottom 0.9s;
+	-moz-transition:bottom 0.9s;
+	-o-transition:bottom 0.9s;
+}
+#returnTop:hover {
+	background-position:0 -188px;
+}
